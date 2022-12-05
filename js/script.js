@@ -26,14 +26,14 @@ function update() {
   console.log("second : " + second)
   let count = 0
   let answer = 0
-  
+
   while (count < second) {
     console.log("loop")
     answer = answer + first
     count = count + 1
     console.log(count)
   }
-  
+
   document.getElementById("answer").innerHTML = answer
   console.log("end")
 }
